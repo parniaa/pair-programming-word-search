@@ -73,6 +73,7 @@ describe("#wordSearch()", function() {
     assert.isTrue(result);
   });
 
+  //5
   it("should return true if the word is present vertically backward", function() {
     const result = wordSearch([
       ['S', 'W', 'C', 'F', 'Q', 'U', 'A', 'L'],
@@ -89,6 +90,7 @@ describe("#wordSearch()", function() {
     assert.isTrue(result);
   });
 
+  //6
   it("should return undefined if the word has less than one letter", function() {
     const result = wordSearch([
       ['S', 'W', 'C', 'F', 'Q', 'U', 'A', 'L'],
@@ -107,6 +109,7 @@ describe("#wordSearch()", function() {
     assert.equal(result, phrase);
   });
 
+  //7
   it("should return undefined if the word has less than one letter", function() {
     const result = wordSearch([
       
